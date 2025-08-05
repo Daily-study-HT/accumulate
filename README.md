@@ -106,10 +106,11 @@ scp 压缩包名称.tae.gz 用户名@1992.168.xxx.xxx:~/
 #### Shell脚本案例
 #!/bin/bash
 
-cd sim2real_master
-
 sudo chmod 777 /dev/tty*
 
 sleep 1
 
-gnome-terminal --title="rl_control" -- bash -c "source install/setup.bash; roslaunch sim2real_master joy_control.launch; exec bash"
+gnome-terminal --title="sim2real" -- bash -c "cd /home/sunteng/sim2real_master; source ./insatll/setup.bash; roslaunch sim2real_master joy_control.launch; exec bash"
+
+wait
+
