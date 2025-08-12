@@ -4,6 +4,10 @@
 ```
 ps aux | grep ros
 ```
+#### 杀死所有ros进程
+```
+pkill -f ros
+```
 #### 终止进程
 ```
 kill -9 进程端口号
