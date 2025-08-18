@@ -10,7 +10,6 @@ urdf_dof_pos_offset: [0.0, 0.0, 0.0, 0.0 ,0.0, 0.0, #左腿
 
 ### 部署代码封装指令
 ```
-```
 catkin clean -y
 ```
 ```
@@ -18,5 +17,4 @@ catkin build -DCMAKE_CXX_FLAGS="-DRELEASE"
 ```
 ```
 catkin config --install
-```
 ```
