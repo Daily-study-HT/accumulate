@@ -10,11 +10,11 @@ urdf_dof_pos_offset: [0.0, 0.0, 0.0, 0.0 ,0.0, 0.0, #左腿
 
 ### 部署代码封装指令
 ```
-catkin clean -y            (删除原来的logs、devel、build编译包)
+catkin clean -y                                      (删除原来的logs、devel、build编译包)
 ```
 ```
 catkin build -DCMAKE_CXX_FLAGS="-DRELEASE"           (启用安装模式 + 配置 Release 编译选项)
 ```
 ```
-catkin config --install   (将编译产物安装到install目录下)
+catkin config --install                              (将编译产物安装到install目录下)
 ```
