@@ -24,8 +24,10 @@ catkin config --install
 ```
 #### 3.ros中查找手柄的话题和按键功能
 ```
+# 检查手柄串口话题
 ls /dev/tty*
 ```
 ```
+# 订阅手柄话题，查看axes和buttons
 jstest /dev/input/jso
 ```
